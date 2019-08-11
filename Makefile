@@ -1,3 +1,5 @@
+all: create_readme  add_title add_date_time number_line
+
 create_readme:
         @> README.md
 
@@ -9,4 +11,3 @@ add_date_time:
 
 number_line:
         @echo -e "The number of line are ` wc -l guessinggame.sh|cut -d' ' -f1`" >> README.md
-
